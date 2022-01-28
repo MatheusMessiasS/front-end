@@ -1,1 +1,7 @@
 # front-end
+
+# GIT
+
+## CONCEITOS DE VERSIONAMENTO
+  . HISTÓRICO
+  . CONTROLE DE VERSÃO
