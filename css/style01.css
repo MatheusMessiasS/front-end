@@ -1,0 +1,404 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	background-color: #330033;
+	
+
+}
+
+header {
+	background-color:#4d004d;
+	padding: 1rem;
+	text-align: center;
+	font-size: 20px;
+	color: #ff9900;
+	border-bottom: 4px solid #ff9900;
+	
+	width: 100%;
+
+}
+
+
+nav {
+	color: #ff9900;
+	padding: 35px;
+	background-color: #4d004d;
+	border-left: 3px solid #ff9900;
+	border-top: 5px solid #ff9900;
+	font-size: 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 15vw;
+
+}
+a {
+	text-decoration: none;
+	color: #ff9900;
+}
+
+a:hover {
+	color: #993d00;
+}
+
+.div1 {
+	width: 30%;
+	
+}
+
+.div1 p {
+	color: #ff9900;
+	font-size: 20px;
+	border-bottom: solid 2px #ff9900;
+	padding-bottom: 1px;
+}
+
+.div1 h3 {
+	color: #ff9900;
+	font-size: 30px;
+	margin: 30px;
+}
+
+h1 {
+	font-size: 40px;
+	color: #ff9900;
+	
+	margin-bottom: 40px;
+	
+}
+
+h2 {
+	font-size: 40px;
+	color: #ff9900;
+	margin-bottom: 20px;
+
+}
+
+.div2 {
+	width: 80%;
+	background: url(../frontend/reuniao2.png) no-repeat;
+	background-position: right;
+	background-size: 100%;
+	padding: 15rem;
+	border-color: #ff9900 #ff9900 #ff9900 #ff9900;
+	border-style: solid;
+	border-radius: 15px;
+	
+	
+}
+
+.div3 {
+	width: 70%;
+	background-color:rgba(75, 1, 83, 70%);
+	color: #ff9900;
+	font-size: 45px;
+	text-align: left;
+	position: absolute;
+	top: 29rem;
+	margin: 150px;
+	border-style: solid;
+	border-color: #ff9900 #ff9900 #ff9900 #ff9900;
+	border-radius: 5px;
+}
+
+.div3 p {
+	margin-left: 10px;
+	font-weight: 0px;
+	font-family: 'Outfit', sans-serif;
+}
+
+.div3 h4 {
+	font-family: 'Outfit', sans-serif;
+	margin-left: 10px;
+}
+
+
+
+
+article {
+    color: #ff9900;
+	width: 15%;
+	text-align: center;
+}
+
+.p1 {
+	color: #ff9900;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+
+		
+form div {
+	text-align: center;
+	color :#ff9900;
+	font-size: 20px;
+	background-color:#4d004d;
+	padding: 10px 30px 30px 20px;
+	margin: 15px;
+	width: 20%;
+	border-left: 4px solid #ff9900;
+	border-radius: 8px;
+	border-top: 7px solid #ff9900;
+}
+
+
+[type="text"], [type="email"], [type="numero"] {
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+footer {
+	background-color: #4d004d;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #ff9900;
+	border-bottom: 2px solid #ff9900;
+	margin-top: 20px;
+}
+
+@media (max-width: 1105px) {
+
+	nav {
+		
+		width: 20vw;
+		margin: 0 auto;
+		margin-top: 20px;
+		min-width: unset;
+	}
+
+	.div2 {
+		padding: 171px;
+		width: 90vw;
+		min-width: unset;
+	}
+
+	.div3 {
+		padding: 10px;
+		font-size: 27px;
+		position: absolute;
+		text-align: left;
+		top: 30rem;
+		margin: 65px;
+		min-width: unset;
+	}
+
+	.div1 {
+		width: 80%;
+		min-width: unset;
+
+	}
+	.div1 h1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.div1 p {
+		width: 80vw;
+		border-bottom: solid 2px #ff9900;
+		min-width: unset;
+	}
+
+	h2 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.p1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	form div {
+		width: 30%;
+		min-width: unset;
+	
+	}
+}
+
+@media (max-width: 665px) {
+
+	nav {
+		
+		width: 25vw;
+		margin: 0 auto;
+		margin-top: 20px;
+		min-width: unset;
+	}
+
+	.div2 {
+		padding: 120px;
+		width: 90vw;
+		min-width: unset;
+	}
+
+	.div3 {
+		padding: 10px;
+		font-size: 20px;
+		position: absolute;
+		text-align: left;
+		top: 30rem;
+		margin: 45px;
+		min-width: unset;
+	}
+
+	.div1 {
+		width: 80%;
+		min-width: unset;
+
+	}
+	.div1 h1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.div1 p {
+		width: 80vw;
+		border-bottom: solid 2px #ff9900;
+		min-width: unset;
+	}
+
+	h2 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.p1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	form div {
+		width: 50%;
+		min-width: unset;
+	
+	}
+}
+
+@media (max-width: 496px) {
+
+	nav {
+		
+		width: 35vw;
+		margin: 0 auto;
+		margin-top: 20px;
+		min-width: unset;
+	}
+
+	.div2 {
+		padding: 90px;
+		width: 90vw;
+		min-width: unset;
+	}
+
+	.div3 {
+		padding: 10px;
+		font-size: 15px;
+		position: absolute;
+		text-align: left;
+		top: 32rem;
+		margin: 30px;
+		min-width: unset;
+	}
+
+	.div1 {
+		width: 80%;
+		min-width: unset;
+
+	}
+	.div1 h1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.div1 p {
+		width: 80vw;
+		border-bottom: solid 2px #ff9900;
+		min-width: unset;
+	}
+
+	h2 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.p1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	form div {
+		width: 60%;
+		min-width: unset;
+	
+	}
+}
+
+@media (max-width: 420px) {
+	
+	
+	
+	nav {
+		width: 35vw;
+		margin: 0 auto;
+		margin-top: 20px;
+		min-width: unset;
+	}
+
+	.div2 {
+		padding: 90px;
+		width: 90vw;
+		min-width: unset;
+	}
+
+	.div3 {
+		padding: 10px;
+		font-size: 15px;
+		position: absolute;
+		text-align: left;
+		top: 32rem;
+		margin: 30px;
+		min-width: unset;
+	}
+
+	.div1 {
+		width: 80%;
+		min-width: unset;
+
+	}
+	.div1 h1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.div1 p {
+		width: 80vw;
+		border-bottom: solid 2px #ff9900;
+		min-width: unset;
+	}
+
+	h2 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	.p1 {
+		font-size: 25px;
+		min-width: unset;
+	}
+
+	form div {
+		width: 60%;
+		min-width: unset;
+		min-width: unset;
+	
+	}
+}

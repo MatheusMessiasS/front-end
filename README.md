@@ -2,6 +2,4 @@
 
 # GIT
 
-## CONCEITOS DE VERSIONAMENTO
-  . HISTÓRICO
-  . CONTROLE DE VERSÃO
+## Mexpress

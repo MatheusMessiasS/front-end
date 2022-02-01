@@ -1,0 +1,330 @@
+
+
+table {
+
+	
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+	border: 2px solid #ff9900;
+	border-radius: 5px;
+	
+
+
+}
+
+
+table tr td:hover {
+	background-color: #4d0f00;
+
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #4d004d;
+	color: #ff9900;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: #330033;
+	color: #ff9900;
+}
+
+
+
+
+
+table th,
+table td {
+	
+	font-size: 20px;
+	text-align: right;
+	vertical-align: middle;
+	padding: 20px;
+	
+
+	
+}
+
+table tr td:first-child {
+	text-align: center;
+	font-weight: bold;
+}
+
+table th {
+	
+	text-align: center;
+	background-color: #4d004d;
+	color: #ff9900;
+}
+
+.table-container {
+	width: 80vw;
+	margin-left: 50px;
+	padding: 30px;
+
+	
+}
+
+.table-container h3 {
+	font-size: 30px;
+	font-style: normal;
+	background-color: #4d004d;
+	border-bottom: 2px solid #ff9900;
+	color: #ff9900;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+
+}
+
+.table-container tfoot {
+	background-color: #1a001a;
+	color: #ff9900;
+	font-size: 0.8rem;
+
+	
+}
+
+
+
+.table-container td {
+	text-align: center;
+	border: 2px solid #ff9900;
+	
+}
+
+.table-container th {
+	border: 2px solid #ff9900;
+	
+}
+
+@media (max-width: 954px) {
+
+	table {
+		width: 10vw;
+		margin-bottom: 10px;
+		min-width: auto;
+	}
+	
+	table th,
+	table td {
+		
+		font-size: 18px;
+		text-align: right;
+		vertical-align: middle;
+		padding: 7px;
+		min-width: auto;
+	}
+	
+	table tr td:first-child {
+		text-align: center;
+		font-weight: bold;
+		min-width: auto;
+	}
+	
+	table th {
+		
+		text-align: center;
+		background-color: #4d004d;
+		color: #ff9900;
+		min-width: auto;
+	}
+	
+	.table-container {
+		width: 20vw;
+		margin-left: 25px;
+		padding: 10px;
+		min-width: auto;
+	}
+	
+	.table-container h3 {
+		font-size: 20px;
+		font-style: normal;
+		background-color: #4d004d;
+		border-bottom: 2px solid #ff9900;
+		color: #ff9900;
+		float: left;
+		padding: 10px;
+		margin-bottom: 20px;
+		border-radius: 3px;
+		min-width: auto;
+	}
+	
+	.table-container tfoot {
+		background-color: #1a001a;
+		color: #ff9900;
+		font-size: 0.8rem;
+		min-width: auto;
+		
+	}
+	
+	
+	
+	.table-container td {
+		text-align: center;
+		border: 2px solid #ff9900;
+		min-width: auto;
+	}
+	
+	.table-container th {
+		border: 2px solid #ff9900;
+		min-width: auto;
+		
+	}
+
+}
+
+
+@media (max-width: 665px) {
+
+	table {
+		width: 10vw;
+		margin-bottom: 20px;
+		min-width: auto;
+	}
+	
+	table th,
+	table td {
+		
+		font-size: 13px;
+		text-align: right;
+		vertical-align: middle;
+		padding: 8px;
+		min-width: auto;
+	
+		
+	}
+	
+	table tr td:first-child {
+		text-align: center;
+		font-weight: bold;
+		min-width: auto;
+	}
+	
+	table th {
+		
+		text-align: center;
+		background-color: #4d004d;
+		color: #ff9900;
+		min-width: auto;
+	}
+	
+	.table-container {
+		width: 20vw;
+		margin-left: 25px;
+		padding: 10px;
+		min-width: auto;
+	}
+	
+	.table-container h3 {
+		font-size: 20px;
+		font-style: normal;
+		background-color: #4d004d;
+		border-bottom: 2px solid #ff9900;
+		color: #ff9900;
+		float: left;
+		padding: 10px;
+		margin-bottom: 20px;
+		border-radius: 3px;
+		min-width: auto;
+	}
+	
+	.table-container tfoot {
+		background-color: #1a001a;
+		color: #ff9900;
+		font-size: 0.8rem;
+		min-width: auto;
+		
+	}
+	
+	
+	
+	.table-container td {
+		text-align: center;
+		border: 2px solid #ff9900;
+		min-width: auto;
+	}
+	
+	.table-container th {
+		border: 2px solid #ff9900;
+		min-width: auto;
+	}
+
+}
+
+
+@media (max-width: 500px) {
+
+	
+	table th,
+	table td {
+		
+		font-size: 1rem;
+		text-align: right;
+		vertical-align: middle;
+		padding: 7px;
+		min-width: auto;
+	
+		
+	}
+	
+	table tr td:first-child {
+		text-align: center;
+		font-weight: bold;
+		min-width: auto;
+	}
+	
+	table th {
+		
+		text-align: center;
+		background-color: #4d004d;
+		color: #ff9900;
+		min-width: auto;
+	}
+	
+	.table-container {
+		width: 20vw;
+		margin-left: 25px;
+		padding: 10px;
+		min-width: auto;
+	}
+	
+	.table-container h3 {
+		font-size: 20px;
+		font-style: normal;
+		background-color: #4d004d;
+		border-bottom: 2px solid #ff9900;
+		color: #ff9900;
+		float: left;
+		padding: 10px;
+		margin-bottom: 20px;
+		border-radius: 3px;
+		min-width: auto;
+	}
+	
+	.table-container tfoot {
+		background-color: #1a001a;
+		color: #ff9900;
+		font-size: 0.8rem;
+		min-width: auto;
+		
+	}
+	
+	
+	
+	.table-container td {
+		text-align: center;
+		border: 2px solid #ff9900;
+		min-width: auto;
+		
+	}
+	
+	.table-container th {
+		border: 2px solid #ff9900;
+		min-width: auto;
+		
+	}
+
+}
